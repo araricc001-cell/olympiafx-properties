@@ -1,0 +1,14 @@
+/* src/components/PageHeader.css */
+.page-header {
+  padding: 40px 0 8px;
+}
+
+.page-header-title {
+  font-size: clamp(2rem, 6vw, 2.8rem);
+}
+
+.page-header-subtitle {
+  margin-top: 12px;
+  color: var(--color-ink-muted);
+  max-width: 560px;
+}

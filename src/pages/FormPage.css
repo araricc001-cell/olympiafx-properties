@@ -1,0 +1,47 @@
+/* src/pages/FormPage.css */
+.form-page-inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.form-page-side {
+  background: var(--color-forest);
+  color: var(--color-sand);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  position: sticky;
+  top: 90px;
+}
+
+.form-page-side h3 {
+  color: var(--color-sand);
+  margin-bottom: 10px;
+}
+
+.form-page-side p {
+  font-size: 0.92rem;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.form-page-side .btn-outline {
+  color: var(--color-sand);
+  border-color: var(--color-sand);
+}
+
+.form-page-side .btn-outline:hover {
+  background: var(--color-sand);
+  color: var(--color-forest);
+}
+
+@media (max-width: 800px) {
+  .form-page-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .form-page-side {
+    position: static;
+  }
+}
